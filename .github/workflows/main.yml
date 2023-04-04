@@ -12,6 +12,6 @@ jobs:
       - uses: actions/checkout@v2
       - uses: akhileshns/heroku-deploy@v3.12.11
         with:
-          heroku_api_key: ${{secrets.576787e9-74fe-4a66-bd6f-f4586bd7a698}}
+          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "github-cd-koby"
           heroku_email: "kobysillito@gmail.com"
